@@ -1,0 +1,261 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6/07/2020, 11:39:45 PM
+    Author     : Hugo
+*/
+*{margin:0;
+  padding: 0;
+  list-style:none;
+ }
+#Encabezado_Principal {
+    position:relative;
+    margin:auto;
+    background-color: #00A8FF;
+    width:  1648;
+    height: 147;
+}
+h1{
+    font: 60px Arial;   
+  }
+  
+  #Milimetros{
+      position:relative;
+      left: 231px;
+      top: 32px;
+  }
+  
+  #Pulgadas{
+      position:relative;
+      left: 1085px;
+      bottom:32px;
+  }
+  
+  
+#Bloque_res{
+    position:relative;
+    width:  1648;
+    height: 147;
+    margin:auto;
+}
+
+
+#respos1{
+    font: 30px Arial;
+    width: 296px;
+    height: 78px;  
+    color: #707070;
+    border:5px #707070 solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left: 244px;
+    top:29px;
+}
+
+#respos2{
+    font: 30px Arial;
+    width: 296px;
+    height: 78px;  
+    color: #707070;
+    border:5px #707070 solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    left: 692px;
+    top:29px;
+}
+
+#respos3{
+    font: 30px Arial;
+    width: 296px;
+    height: 78px;  
+    color: #707070;
+    border:5px #707070 solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    left: 1098px;
+    top:29px;
+}
+
+#Calibrador{
+    position:relative;
+    width:  1648;
+    height: 457;
+    margin:auto;
+    border:5px #707070 solid;
+    border-radius: 50px;
+    top:10px;
+}
+/*
+/* Estilo de la imágen del calibrador*/
+#Calibrador{
+    width: 1648px; /* width of container */
+    height: 472px; /* height of container */
+    overflow: hidden;
+    border:5px #707070 solid;
+}
+
+    #RFija
+    {
+      position: relative;
+      top: 0;
+      left: 136px;
+      /*margin:auto;*/
+    }
+    #RMovil
+    {
+      position: relative;
+      /*margin:auto;*/
+      bottom: 457px;
+    }
+ 
+ /* Estilo Indicadores RW*/
+ #IndicadoresRW{
+    position:relative;
+    width:  1648;
+    height: 70;
+    margin:auto;
+    top:30px;
+}
+
+    #right
+    {
+      position: relative;
+      top: 0;
+      left: 751px;
+    }
+    
+     #wrong
+    {
+      position: relative;
+      top: 0px;
+      left: 830px;
+    }
+ /* -----------------------*/
+ 
+ #infcontrols{
+    position:relative;
+    top: 0px;
+    margin:auto;
+    width: 1648px;
+    height: 300px;
+    }
+
+ 
+ 
+ /* Estilo de los Botones*/
+ #button1{
+    font: 60px Arial;
+    width: 328px;
+    height: 77px;  
+    background-color: #1C739F;
+    transition-duration: 0.4s;
+    border:1px #707070 solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left: 228px;
+    top:20px;
+}
+
+#button1:hover {
+  background-color:  #1C739F; /* Green */
+  color: white;
+}
+
+ /* Estilo de los Botones*/
+ #button2{
+    font: 60px Arial;
+    width: 328px;
+    height: 77px;  
+    background-color: #1C739F;
+    transition-duration: 0.4s;
+    border:1px #707070 solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top:20px;
+    left: 1112px;    
+}
+
+#button2:hover {
+  background-color:  #1C739F; /* Green */
+  color: white;
+}
+
+ /* Estilo de los Botones*/
+ #button3{
+    font: 60px Arial;
+    width: 328px;
+    height: 77px;  
+    background-color: #1C739F;
+    transition-duration: 0.4s;
+    border:1px #707070 solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top:150px;
+    left:228px;    
+}
+
+#button3:hover {
+  background-color:  #1C739F; /* Green */
+  color: white;
+}
+
+
+
+
+/* Estilo Tiempo e Indicadores Entrada*/
+#Tiempo{
+    font: 30px Arial;
+    width: 296px;
+    height: 78px;  
+    color: #707070;
+    border:5px #707070 solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    left: 692px;
+    top:150px;
+}
+
+#Valor{
+    font: 30px Arial;
+    width: 296px;
+    height: 78px;  
+    color: #707070;
+    border:5px #707070 solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    left: 692px;
+    top:50px;
+}
+
+#input{
+    font: 20px Arial;
+    color: #707070;
+    border: none;
+}
