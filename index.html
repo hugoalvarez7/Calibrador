@@ -1,0 +1,61 @@
+<html>
+<meta charset="UTF-8">
+<body>
+<!-- llama la hoja de estilos css -->    
+<link rel="stylesheet" href="styles.css">
+
+<!-- llama las funciones de javascript -->
+<script src="jscodes.js">
+</script>
+
+<!-- Inicia Cabezote -->
+     <header id="Encabezado_Principal"> 
+         <nav>
+             <div id = "Milimetros"><h1>MILÍMETROS</h1></div>
+             <div id = "Pulgadas"><h1>PULGADAS</h1></div>
+         </nav>
+
+     </header>
+<!-- Cierra Cabezote -->    
+
+<!-- Inicia Resultados -->
+               <div id ="Bloque_res">
+                   <div id ="respos1"> BUENAS </div>
+                   <div id ="respos2"> MALAS </div>
+                   <div id ="respos3"> PUNTAJE FINAL </div>
+               </div>
+<!-- Cierra Resultados -->
+
+<!-- Inicia Imágen Calibrador -->
+    
+               <div id="Calibrador">
+                    <img id = "RFija" src="https://gdurl.com/9SiW" />
+                    <img id = "RMovil" src="https://gdurl.com/nbyJ" />
+               </div>
+<!-- Cierra Imágen Calibrador -->
+
+<!-- Inicia Indicadores de Respuesta -->
+
+               <div id="IndicadoresRW">
+                    <img id = "right" src="https://gdurl.com/PuOX" />
+                    <img id = "wrong" src="https://gdurl.com/JjCt" />
+               </div>
+
+<div id="infcontrols">
+<!-- Definición de Botones -->                                       
+               <button id ="button1" onclick = "Inicio_Prog();"> INICIO </button> 
+               <button id ="button2" onclick = "Enviar_Dat();"> ENVÍAR </button>
+               <button id ="button3" onclick = "Finalizar();"> FINALIZAR </button>
+               
+<!-- Inicia Indicadores de Respuesta -->
+
+<!-- Inicia Controles -->
+                   <div id ="Tiempo"> </div>            
+                   <form id ="Valor"> 
+                   <input type="text" id="input" onfocus="if(this.value == 'VALOR EN MILIMETROS') { this.value = ''; }" value="VALOR EN MILIMETROS" />
+                   </form>
+</div>
+                   <!-- Cierra Controles -->
+
+</body>
+</html>
